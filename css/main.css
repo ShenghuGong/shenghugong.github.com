@@ -277,14 +277,14 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  color: #85c4b1;
+  color: #60b299;
   text-decoration: none;
   border-bottom: 1px solid #999;
   word-wrap: break-word;
 }
 a:hover {
-  color: #569683;
-  border-bottom-color: #85c4b1;
+  color: #5ca48e;
+  border-bottom-color: #60b299;
 }
 ul {
   list-style: none;
@@ -382,7 +382,7 @@ dd {
 }
 .highlight a,
 .gist a {
-  color: #569683 !important;
+  color: #5ca48e !important;
   text-decoration: none !important;
 }
 .affix.affix.affix {
@@ -1282,7 +1282,7 @@ pre .javascript .function {
   margin-top: 50px;
 }
 .post-more-link .btn {
-  color: #85c4b1;
+  color: #60b299;
   font-size: 14px;
   background: transparent;
   border-radius: 0;
@@ -1314,11 +1314,11 @@ pre .javascript .function {
   display: inline-block;
   line-height: 25px;
   font-size: 14px;
-  color: #85c4b1;
+  color: #60b299;
   border-bottom: none;
 }
 .post-nav-item a:hover {
-  color: #569683;
+  color: #5ca48e;
   border-bottom: none;
 }
 .post-nav-item a:active {
@@ -1518,7 +1518,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff20c8;
+  background: #ffb6ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1556,11 +1556,11 @@ pre .javascript .function {
   margin-left: 10px;
 }
 .sidebar-nav .sidebar-nav-active {
-  color: #87daff;
-  border-bottom-color: #87daff;
+  color: #60b299;
+  border-bottom-color: #60b299;
 }
 .sidebar-nav .sidebar-nav-active:hover {
-  color: #87daff;
+  color: #60b299;
 }
 .sidebar-panel {
   display: none;
@@ -1619,14 +1619,14 @@ pre .javascript .function {
   display: block;
 }
 .post-toc .nav .active > a {
-  color: #87daff;
-  border-bottom-color: #87daff;
+  color: #60b299;
+  border-bottom-color: #60b299;
 }
 .post-toc .nav .active-current > a {
-  color: #87daff;
+  color: #60b299;
 }
 .post-toc .nav .active-current > a:hover {
-  color: #87daff;
+  color: #60b299;
 }
 .footer {
   font-size: 14px;
@@ -2076,7 +2076,7 @@ a.search-result {
   padding-left: 10px;
 }
 .page-post-detail .sidebar-toggle-line {
-  background: #87daff;
+  background: #60b299;
 }
 .page-post-detail .comments {
   overflow: hidden;
