@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Android Blog" />
+  <meta name="keywords" content="View," />
 
 
 
@@ -57,16 +57,16 @@
 
 
 
-<meta name="description" content="Android developer Blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="最近在系统的整理Android相关知识，此篇文章从大体上介绍一下Android的View系统的主要知识点，后面会逐步详细整理。关于Android View系统的知识，主要包括下面几个方面:View的事件分发、View的绘制流程、View的相关工具类、View动画等。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="View系统">
+<meta property="og:url" content="http://yoursite.com/2016/04/07/View系统/index.html">
 <meta property="og:site_name" content="IvanGong">
-<meta property="og:description" content="Android developer Blog">
-<meta property="og:updated_time" content="2016-04-06T13:24:03.000Z">
+<meta property="og:description" content="最近在系统的整理Android相关知识，此篇文章从大体上介绍一下Android的View系统的主要知识点，后面会逐步详细整理。关于Android View系统的知识，主要包括下面几个方面:View的事件分发、View的绘制流程、View的相关工具类、View动画等。">
+<meta property="og:updated_time" content="2016-04-07T07:53:17.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="Android developer Blog">
+<meta name="twitter:title" content="View系统">
+<meta name="twitter:description" content="最近在系统的整理Android相关知识，此篇文章从大体上介绍一下Android的View系统的主要知识点，后面会逐步详细整理。关于Android View系统的知识，主要包括下面几个方面:View的事件分发、View的绘制流程、View的相关工具类、View动画等。">
 
 
 
@@ -84,13 +84,7 @@
   };
 </script>
 
-  <title>
-  
-
-  
-    Tag | IvanGong
-  
-</title>
+  <title> View系统 | IvanGong </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -111,7 +105,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -211,16 +205,142 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
     
-      <div class="tag-cloud">
-        <div class="tag-cloud-title">
-            1 tag in total
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                View系统
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Posted on</span>
+            <time itemprop="dateCreated" datetime="2016-04-07T11:38:19+08:00" content="2016-04-07">
+              2016-04-07
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/04/07/View系统/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2016/04/07/View系统/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
         </div>
-        <div class="tag-cloud-tags">
-          <a href="/tags/View/" style="font-size: 12px; color: #ccc">View</a>
-        </div>
-      </div>
+      </header>
     
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>最近在系统的整理Android相关知识，此篇文章从大体上介绍一下Android的View系统的主要知识点，后面会逐步详细整理。<br>关于Android View系统的知识，主要包括下面几个方面:View的事件分发、View的绘制流程、View的相关工具类、View动画等。<br><a id="more"></a></p>
+<h2 id="View系统的事件分发"><a href="#View系统的事件分发" class="headerlink" title="View系统的事件分发"></a>View系统的事件分发</h2><h2 id="View的绘制"><a href="#View的绘制" class="headerlink" title="View的绘制"></a>View的绘制</h2><h2 id="View的相关工具类"><a href="#View的相关工具类" class="headerlink" title="View的相关工具类"></a>View的相关工具类</h2><h2 id="View-动画"><a href="#View-动画" class="headerlink" title="View 动画"></a>View 动画</h2><h2 id="一些View的讲解"><a href="#一些View的讲解" class="headerlink" title="一些View的讲解"></a>一些View的讲解</h2><h2 id="自定义View"><a href="#自定义View" class="headerlink" title="自定义View"></a>自定义View</h2>
+      
+    </div>
+    
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/View/" rel="tag">#View</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/04/07/最近状态/" rel="next" title="最近状态">
+                <i class="fa fa-chevron-left"></i> 最近状态
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -259,8 +379,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://www.gravatar.com/avatar/b7129aaf8d94b1d710eb31ee5606d3f8"
@@ -323,6 +452,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#View系统的事件分发"><span class="nav-number">1.</span> <span class="nav-text">View系统的事件分发</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#View的绘制"><span class="nav-number">2.</span> <span class="nav-text">View的绘制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#View的相关工具类"><span class="nav-number">3.</span> <span class="nav-text">View的相关工具类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#View-动画"><span class="nav-number">4.</span> <span class="nav-text">View 动画</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些View的讲解"><span class="nav-number">5.</span> <span class="nav-text">一些View的讲解</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自定义View"><span class="nav-number">6.</span> <span class="nav-text">自定义View</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -407,6 +547,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=0.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=0.5.0"></script>
+
+
 
   
 
@@ -423,9 +567,9 @@
 
     <script type="text/javascript">
       var disqus_shortname = 'ivangong';
-      var disqus_identifier = 'tags/index.html';
-      var disqus_title = 'tags';
-      var disqus_url = 'http://yoursite.com/tags/index.html';
+      var disqus_identifier = '2016/04/07/View系统/';
+      var disqus_title = 'View系统';
+      var disqus_url = 'http://yoursite.com/2016/04/07/View系统/';
 
       function run_disqus_script(disqus_script){
         var dsq = document.createElement('script');
